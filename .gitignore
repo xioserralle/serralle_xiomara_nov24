@@ -1,0 +1,4 @@
+# Ignoramos las siguientes extensiones y carpetas
+
+*.xsd
+top_secret/
