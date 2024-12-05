@@ -1,0 +1,241 @@
+    1  git config --global user.email "nagore.longaray098@comunidadunir.net"
+    2  git config --global user.name "Nagore Longaray"
+    3  get config --global --list
+    4  git --version
+    5  git config --global --list
+    6  ls -al ~/.ssh
+    7  pwd
+    8  ssh keygen -t ed25519 -C "nagore.longaray098@comunidadunir.net"
+    9  ssk-keygen -t ed25519 -C "nagore.longaray098@comunidadunir.net"
+   10  ssh-keygen -t ed25519 -C "nagore.longaray098@comunidadunir.net"
+   11  cd Desktop
+   12  cd Escritorio
+   13  pwd
+   14  cd ~/Desktop
+   15  cd Desktop
+   16  cd Desktop
+   17  pwd
+   18  cd Vinculos
+   19  cd /c/Users/nagor/Vinculos/Desktop
+   20  ls -l /c/User/nagor
+   21  ls -l /c/Users/nagor
+   22  cd /c/Users/nagor/Links
+   23  ls
+   24  cd..
+   25  cd /c
+   26  ls
+   27  cd DAW/
+   28  cd 04_EntornoDeDesarrollo/
+   29  cd Actividad_1/
+   30  git clone git@github.com:nagxlongaray/Repo1Actividad1.git
+   31  pwd
+   32  cd ..
+   33  cd ..
+   34  cd DAW
+   35  cd 04_EntornoDeDesarrollo/Actividad_1/
+   36  git clone git@github.com:nagxlongaray/Repo1Actividad1.git
+   37  git clone git@github.com:nagxlongaray/Repo1Actividad1.git
+   38  pwd
+   39  cd ..
+   40  cd ..
+   41  cd DAW
+   42  cd 03_LenguajeDeMarcas/
+   43  git clone git@github.com:rrodriguez1985/UNIR_Marcas2024.git
+   44  pwd
+   45  cd ..
+   46  cd ..
+   47  cd DAW
+   48  cd 03_LenguajeDeMarcas/
+   49  git pull
+   50  cd UNIR_Marcas2024/
+   51  git pull
+   52  pwd
+   53  cd ..
+   54  cd ..
+   55  cd DAW
+   56  cd 04_EntornoDeDesarrollo/
+   57  git clone git@github.com:nagxlongaray/tarea_repaso_nov24.git
+   58  cd tarea_repaso_nov24/
+   59  mkdir app manuals media configurations local_config
+   60  cd app
+   61  touch main.js
+   62  cd ..
+   63  cd manuals
+   64  touch instrucciones.pdf
+   65  cd ..
+   66  cd media
+   67  ll
+   68  cd ..
+   69  cd configurations/
+   70  touch settings.json
+   71  ll
+   72  cd ..
+   73  touch local_config/configuracion_local.ini
+   74  cd local_config/
+   75  ll
+   76  cd ..
+   77  touch .gitignore
+   78  ll
+   79  git checkout -b nueva_rama
+   80  git add README.md
+   81  git status
+   82  git add .
+   83  git status
+   84  git commit -m "ADD: Primera modificacion README.md"
+   85  git add README.md
+   86  git status
+   87  git config -m "ADD: Segunda modificacion README.md"
+   88  git commit -m "ADD: Segunda linea modificada en README.md"
+   89  git status
+   90  git add README.md
+   91  git status
+   92  git commit -m "ADD: Tercer cambio archivo README.md"
+   93  git switch main
+   94  git merge nueva_rama
+   95  cd manuals/
+   96  ll
+   97  ll
+   98  cd ..
+   99  git add manuals/captura_pantalla.png 
+  100  git status
+  101  git commit -m "ADD: Captura de pantalla a manuals"
+  102  git status
+  103  git push origin main
+  104  pwd
+  105  cd ..
+  106  cd ..
+  107  cd DAW
+  108  cd 04_EntornoDeDesarrollo/
+  109  git clone git@github.com:nagxlongaray/longaray_nagore_nov25.git
+  110  cd longaray_nagore_nov25/
+  111  mkdir src docs assets miConfiguracionPersonal
+  112  ll
+  113  touch src/index.html
+  114  cd src
+  115  ll
+  116  cd ..
+  117  mkdir top_secret
+  118  touch top_secret/202411_EjercicioPractico_EDD.pdf
+  119  cd assets
+  120  ll
+  121  cd ..
+  122  touch .gitignore
+  123  ls -a
+  124  git checkout -b nagorelongaray
+  125  git add .
+  126  git status
+  127  git commit -m "Estructura inicial proyecto"
+  128  git switch main
+  129  git merge nagorelongaray
+  130  git push origin main
+  131  git pull origin main
+  132  git switch nagorelongaray
+  133  git add .gitignore
+  134  git status
+  135  git commit -m "ADD: Archivo .gitignore"
+  136  git switch main
+  137  git merge nagorelongaray
+  138  git push origin main
+  139  git pull
+  140  git switch nagorelongaray
+  141  git add README.md
+  142  git status
+  143  git commit -m "ADD: Actualización archivo README en rama secundaria"
+  144  git switch main
+  145  git merge nagorelongaray
+  146  git push origin main
+  147  mkdir history
+  148  cp ~/.bash_history historial_comandos.txt
+  149  cd history
+  150  cd ..
+  151  ls
+  152  rm historial_comandos.txt
+  153  ls
+  154  cd history/
+  155  git init
+  156  cp ~/.bash_history historial_comandos.txt
+  157  git add historial_comandos.txt 
+  158  git status
+  159  git commit -m "ADD: Historial de comandos"
+  160  git pusch origin main
+  161  git push origin master
+  162  cd ..
+  163  git switch nagorelongaray
+  164  git add assets/
+  165  git status
+  166  git commit -m "ADD: Capturas comandos"
+  167  git switch main
+  168  git merge nagorelongaray
+  169  git push origin main
+  170  git switch nagorelongaray
+  171  git status
+  172  git add history/
+  173  git commit -m "ADD: Historial de comandos"
+  174  git switch main
+  175  git merge nagorelongaray
+  176  git push origin main
+  177  pwd
+  178  cd ..
+  179  cd ..
+  180  cd Xio
+  181  git clone git@github.com:xioserralle/serralle_xiomara_nov24.git
+  182  cd serralle_xiomara_nov24/
+  183  mkdir src docs assets miConfiguracionPersonal
+  184  ll
+  185  touch src/index.html
+  186  cd src
+  187  ll
+  188  cd ..
+  189  mkdir top_secret
+  190  touch top_secret/202411_EjercicioPractico_EEDD.pdf
+  191  cd top_secret/
+  192  ll
+  193  cd ..
+  194  git checkout -b "xiomara"
+  195    git add .
+  196  git status
+  197  git commit -m "Añado estructura inicial del proyecto"
+  198  git switch
+  199  git switch main
+  200  git merge xiomara
+  201  git push origin main
+  202  git push origin main
+  203  pwd
+  204  cd ..
+  205  cd ..
+  206  cd Xio
+  207  git clone https://github.com/xioserralle/serralle_xiomara_nov24.git
+  208  cd serralle_xiomara_nov24/
+  209  mkdir src docs assets miConfiguracionPersonal
+  210  ll
+  211  mkdir top_secret
+  212  touch src/index.html
+  213  touch top_secret/202411_EjercicioPractico_EEDD.pdf
+  214  git checkout -b "xiomara"
+  215  git add .
+  216  git commit -m "Estructura de repositorio"
+  217  git switch main
+  218  git merge xiomara
+  219  git push origin main
+  220  cd ..
+  221  cd ..
+  222  cd Xio
+  223  cd serralle_xiomara_nov24/
+  224  git status
+  225  git push origin main
+  226  touch .gitignore
+  227  git switch xiomara
+  228  git add .gitignore
+  229  git status
+  230  git commit -m "Añadimos archivo .gitignore con extensiones y carpetas ignoradas"
+  231  git switch main
+  232  git merge xiomara
+  233  git push origin main
+  234  git switch xiomara
+  235  git add README.md 
+  236  git commit -m "Añadimos comentario en readme.md"
+  237  git switch main
+  238  git merge xiomara
+  239  git push origin main
+  240  history
+  241  history > historial_comandos.txt
